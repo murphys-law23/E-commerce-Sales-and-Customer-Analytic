@@ -1,0 +1,6 @@
+Net Sales = CALCULATE(SUMX(orders, orders[quantity] * orders[unit_price] * (1 - orders[discount_pct])), orders[status] = "Completed")
+Completed Orders = CALCULATE(DISTINCTCOUNT(orders[order_id]), orders[status] = "Completed")
+Average Order Value = DIVIDE([Net Sales], [Completed Orders])
+Active Customers = CALCULATE(DISTINCTCOUNT(orders[customer_id]), orders[status] = "Completed")
+Repeat Customers = COUNTROWS(FILTER(VALUES(orders[customer_id]), CALCULATE(COUNTROWS(orders), orders[status] = "Completed") >= 2))
+Repeat Customer Rate = DIVIDE([Repeat Customers], [Active Customers])

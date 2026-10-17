@@ -1,0 +1,13 @@
+{
+  "name": "Murphy Indigo and Turquoise",
+  "dataColors": [
+    "#4F46B8",
+    "#087F8C",
+    "#38B5A5",
+    "#94A6ED",
+    "#A08AC9"
+  ],
+  "background": "#F3F4FB",
+  "foreground": "#242746",
+  "tableAccent": "#4F46B8"
+}
