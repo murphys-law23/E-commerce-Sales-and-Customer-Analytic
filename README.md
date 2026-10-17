@@ -28,7 +28,7 @@ This project answers four questions:
 ## Dataset
 
 - **Input:** `data/orders.csv`
-- **Coverage:** Januaryâ€“December 2025; 1,600 orders; five categories.
+- **Coverage:** January-December 2025; 1,600 orders; five categories.
 - **Grain:** One order per row, with one category assigned to each order.
 - **Fields:** Order ID, date, customer ID, category, quantity, unit price, discount, status and region.
 - **Provenance:** Synthetic data supplied with this case study. The checked-in CSV is the reproducible input; the original generation script is not included.
