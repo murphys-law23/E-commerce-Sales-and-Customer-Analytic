@@ -129,9 +129,6 @@ python python/build_preview.py
 - [Findings and recommendations Word](reports/insights.docx)
 - [Dashboard instructions  Word](dashboard/README.docx)
 
-## Limitations
-
-The dataset is synthetic and contains no acquisition costs, product costs, partial refunds, tax, shipping charges or customer history before 2025. Sales do not establish profitability. Excluding returned orders is a case-study convention, not a complete accounting treatment of refunds. Repeat-customer rate is not cohort retention or customer lifetime value.
 
 ## License
 
